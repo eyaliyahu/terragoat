@@ -5,7 +5,7 @@ resource "alicloud_oss_bucket" "bad_bucket" {
   # Doesn't have access logging enabled" 
   bucket = "wildwestfreeforall"
   acl    = "public-read-write"
-  tags = {
+  tags = { 
     git_commit           = "9c114f23d311f787c137723e1f71b27a52f0adec"
     git_file             = "terraform/alicloud/bucket.tf"
     git_last_modified_at = "2022-04-05 15:17:55"
