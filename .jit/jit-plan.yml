@@ -7,7 +7,10 @@ owners:
 references:
   - https://www.jit.io
 tags: []
-items: []
+items:
+  - name: Generate a Software Bill of Materials (SBOM)
+    uses: >-
+      jitsecurity-controls/jit-plans/items/code/item-software-bill-of-materials.yml@latest
 override:
   workflows:
     sbom:
